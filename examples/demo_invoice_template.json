@@ -1,0 +1,13 @@
+{
+  "description": "Szablon fikcyjnej dwustronicowej faktury demonstracyjnej (examples/demo_invoice.pdf)",
+  "dpi": 200,
+  "language": "eng",
+  "rows": 3,
+  "row_step": 50,
+  "confidence_threshold": 65,
+  "coordinates": {
+    "product": [90, 790, 660, 48],
+    "amount": [1250, 790, 200, 48],
+    "price": [1480, 790, 140, 48]
+  }
+}

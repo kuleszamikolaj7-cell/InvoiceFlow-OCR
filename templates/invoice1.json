@@ -1,0 +1,28 @@
+{
+  "description": "Oryginalny układ Invoice1.pdf; współrzędne w pikselach przy 200 DPI",
+  "dpi": 200,
+  "language": "eng",
+  "rows": 17,
+  "row_step": 50,
+  "coordinates": {
+    "product": [
+      90,
+      790,
+      660,
+      48
+    ],
+    "amount": [
+      1250,
+      790,
+      200,
+      48
+    ],
+    "price": [
+      1480,
+      790,
+      140,
+      48
+    ]
+  },
+  "confidence_threshold": 65
+}

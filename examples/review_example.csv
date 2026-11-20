@@ -1,0 +1,4 @@
+Row,Item,Quantity,Income,Approved
+1,Product A,2,"15,50",yes
+2,Product B,1,12.00,yes
+3,,,,no

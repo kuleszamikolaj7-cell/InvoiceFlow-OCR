@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Przetworzone obrazy / wyniki
+/output/
+/out.csv
+/inventory_updated.csv
+
+# Dane prywatne (w repo trzymamy tylko fikcyjne przykłady)
+*.pdf
+/FinancialSheet.csv
+/Invoice1.pdf
+
+# Edytory i system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Jedyny PDF w repo to fikcyjna faktura testowa
+!/examples/demo_invoice.pdf
+
+# Prywatna baza historii SQLite i jej pliki pomocnicze
+/data/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Lokalne raporty (nie umieszczaj danych finansowych na GitHubie)
+/reports/
+/raport*.xlsx
+/raport*.csv
+
+# Build PyInstaller
+/build/
+/dist/
+*.spec
